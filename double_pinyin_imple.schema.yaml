@@ -83,7 +83,7 @@ speller:
     - xform/(.)ao$/$1C/
     - xform/ui$/W/ # edited from V to W, merged with 'ei'
     - xform/in$/B/
-    - xform/o$/E/ # newly added, merge 'o' with 'e'
+    - xform/([bpmf])o$/$1E/ # newly added, merge 'o' with 'e' after bpmf
     - xlit/QWERTYUIOPSDFGHJKLZXCVBNM/qwertyuiopsdfghjklzxcvbnm/ # edited to include e
     #- abbrev/^(.).+$/$1/
 
@@ -91,7 +91,7 @@ translator:
   dictionary: luna_pinyin
   prism: double_pinyin_mine
   preedit_format:
-    - xform/([wbpmf])e/$1o/ # newly added
+    - xform/([bpmf])e/$1o/ # newly added
     - xform/([bpmfdtnljqx])n/$1iao/
     - xform/(\w)g/$1eng/
     - xform/(\w)q/$1iu/
