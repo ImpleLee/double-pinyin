@@ -83,7 +83,7 @@ speller:
     - xform/(.)ao$/$1C/
     - xform/ui$/W/ # edited from V to W, merged with 'ei'
     - xform/in$/B/
-    - xform/ao$/AO/ # newly added, to avoid being transformed into `ae`
+    - xform/^ao$/aO/ # newly added, to avoid being transformed into `ae`
     - xform/o$/E/ # newly added, merge 'o' with 'e'
     - xlit/QWERTYUIOPSDFGHJKLZXCVBNM/qwertyuiopsdfghjklzxcvbnm/ # edited to include e
     #- abbrev/^(.).+$/$1/
