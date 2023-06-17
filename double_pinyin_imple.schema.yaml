@@ -84,22 +84,22 @@ speller:
     - xform/[iu]a$/X/
     - xform/iao$/N/
     - xform/(.)ao$/$1C/
-    - xform/ui$/W/ # edited from V to W, merged with 'ei'
-    - xform/^ao$/aO/ # newly added, to avoid being transformed into `ae`
-    - xform/o$/E/ # newly added, merge 'o' with 'e'
-    - xlit/QWERTYUIOPSDFGHJKLZXCVBNM/qwertyuiopsdfghjklzxcvbnm/ # edited to include e
+    - xform/ui$/W/
+    - xform/^ao$/aO/
+    - xform/o$/E/
+    - xlit/QWERTYUIOPSDFGHJKLZXCVBNM/qwertyuiopsdfghjklzxcvbnm/
     #- abbrev/^(.).+$/$1/
 
 translator:
   dictionary: luna_pinyin
   prism: double_pinyin_imple
   preedit_format:
-    - xform/([wbpmf])e/$1o/ # newly added
+    - xform/([wbpmf])e/$1o/
     - xform/([bpmfdtnljqx])n/$1iao/
     - xform/(\w)g/$1eng/
     - xform/(\w)q/$1iu/
-    - xform/([wbpmfnl])w/$1ei/ # newly added
-    - xform/(\w)w/$1ui/ # edited from ei to ui
+    - xform/([wbpmfnl])w/$1ei/
+    - xform/(\w)w/$1ui/
     - xform/([dtnlgkhjqxyvuirzcs])r/$1uan/
     - xform/(\w)t/$1ve/
     - xform/lf/lun/
