@@ -62,16 +62,19 @@ speller:
     - xform/(.)ei$/$1W/
     - xform/uan$/R/
     - xform/[uv]e$/T/
-    - xform/un$/Y/
+    - xform/(.)en$/$1F/
+    - xform/^([nl])un$/$1F/
+    - xform/^([jqxy])in/$1F/
+    - xform/un$|in$/Y/
     - xform/^sh/U/
     - xform/^ch/I/
     - xform/^zh/V/
     - xform/uo$/O/
     - xform/ie$/P/
     - xform/i?ong$/S/
-    - xform/ing$|uai$/K/
+    - xform/ing$/K/
+    - xform/uai$/B/
     - xform/(.)ai$/$1D/
-    - xform/(.)en$/$1F/
     - xform/(.)eng$/$1G/
     - xform/[iu]ang$/L/
     - xform/(.)ang$/$1H/
@@ -82,7 +85,6 @@ speller:
     - xform/iao$/N/
     - xform/(.)ao$/$1C/
     - xform/ui$/W/ # edited from V to W, merged with 'ei'
-    - xform/in$/B/
     - xform/^ao$/aO/ # newly added, to avoid being transformed into `ae`
     - xform/o$/E/ # newly added, merge 'o' with 'e'
     - xlit/QWERTYUIOPSDFGHJKLZXCVBNM/qwertyuiopsdfghjklzxcvbnm/ # edited to include e
@@ -100,16 +102,18 @@ translator:
     - xform/(\w)w/$1ui/ # edited from ei to ui
     - xform/([dtnlgkhjqxyvuirzcs])r/$1uan/
     - xform/(\w)t/$1ve/
+    - xform/lf/lun/
+    - xform/([jqxy])f/$1in/
+    - xform/(\w)f/$1en/
+    - xform/([bpmfnl])y/$1in/
     - xform/(\w)y/$1un/
     - xform/([dtnlgkhvuirzcs])o/$1uo/
     - xform/(\w)p/$1ie/
     - xform/([jqx])s/$1iong/
     - xform/(\w)s/$1ong/
     - xform/(\w)d/$1ai/
-    - xform/(\w)f/$1en/
     - xform/(\w)h/$1ang/
     - xform/(\w)j/$1an/
-    - xform/([gkhvuirzcs])k/$1uai/
     - xform/(\w)k/$1ing/
     - xform/([jqxnl])l/$1iang/
     - xform/(\w)l/$1uang/
@@ -118,7 +122,7 @@ translator:
     - xform/(\w)x/$1ia/
     - xform/(\w)c/$1ao/
     - xform/([dtgkhvuirzcs])v/$1ui/
-    - xform/(\w)b/$1in/
+    - xform/(\w)b/$1uai/
     - xform/(\w)m/$1ian/
     - xform/([aoe])\1(\w)/$1$2/
     - "xform/(^|[ '])v/$1zh/"
