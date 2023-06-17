@@ -64,7 +64,7 @@ speller:
     - xform/[uv]e$/T/
     - xform/(.)en$/$1F/
     - xform/^([nl])un$/$1F/
-    - xform/^([jqxy])in/$1F/
+    - xform/^([jqxy])in$/$1F/
     - xform/un$|in$/Y/
     - xform/^sh/U/
     - xform/^ch/I/
