@@ -130,6 +130,10 @@ translator:
     - "xform/(^|[ '])u/$1sh/"
     - xform/([jqxy])v/$1u/
     - xform/([nl])v/$1ü/
+    - xform/ng/ŋ/
+    - xform/zh/ẑ/
+    - xform/ch/ĉ/
+    - xform/sh/ŝ/
 
 reverse_lookup:
   dictionary: stroke
