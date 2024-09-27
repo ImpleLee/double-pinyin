@@ -102,8 +102,11 @@ translator:
   dictionary: luna_pinyin
   prism: double_pinyin_imple
   preedit_format:
+    - xform/([jqx])a/$1ia/
     - xform/([wbpmf])e/$1o/
+    - xform/([jqx])e/$1ie/
     - xform/([bpmfdtnljqx])n/$1iao/
+    - xform/([jqxy])g/$1ing/
     - xform/(\w)g/$1eng/
     - xform/(\w)q/$1iu/
     - xform/([wbpmfnl])w/$1ei/
@@ -116,18 +119,23 @@ translator:
     - xform/([bpmfnl])y/$1in/
     - xform/(\w)y/$1un/
     - xform/([dtnlgkhvuirzcs])o/$1uo/
+    - xform/([jqxy])o/$1ue/
     - xform/(\w)p/$1ie/
     - xform/([jqx])s/$1iong/
     - xform/(\w)s/$1ong/
     - xform/(\w)d/$1ai/
+    - xform/([jqx])h/$1iang/
     - xform/(\w)h/$1ang/
+    - xform/([jqx])j/$1ian/
     - xform/(\w)j/$1an/
     - xform/(\w)k/$1ing/
     - xform/([jqxnl])l/$1iang/
     - xform/(\w)l/$1uang/
+    - xform/([jqx])z/$1iu/
     - xform/(\w)z/$1ou/
     - xform/([gkhvuirzcs])x/$1ua/
     - xform/(\w)x/$1ia/
+    - xform/([jqx])c/$1iao/
     - xform/(\w)c/$1ao/
     - xform/([dtgkhvuirzcs])v/$1ui/
     - xform/(\w)b/$1uai/
