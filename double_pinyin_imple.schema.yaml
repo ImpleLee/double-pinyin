@@ -58,9 +58,11 @@ speller:
     - derive/^([jqxy])u$/$1v/
     - derive/^([aoe])([ioun])$/$1$1$2/
     - xform/^([aoe])(ng)?$/$1$1$2/
+    - xform/^([jqx])iu$/$1Z/
     - xform/iu$/Q/
     - xform/(.)ei$/$1W/
     - xform/uan$/R/
+    - xform/^([jqxy])ue$/$1O/
     - xform/[uv]e$/T/
     - xform/(.)en$/$1F/
     - xform/^([nl])un$/$1F/
@@ -70,18 +72,24 @@ speller:
     - xform/^ch/I/
     - xform/^zh/V/
     - xform/uo$/O/
+    - xform/^([jqx])ie$/$1E/
     - xform/ie$/P/
     - xform/i?ong$/S/
+    - xform/^([jqxy])ing$/$1G/
     - xform/ing$/K/
     - xform/uai$/B/
     - xform/(.)ai$/$1D/
     - xform/(.)eng$/$1G/
+    - xform/^([jqx])iang$/$1H/
     - xform/[iu]ang$/L/
     - xform/(.)ang$/$1H/
+    - xform/^([jqx])ian$/$1J/
     - xform/ian$/M/
     - xform/(.)an$/$1J/
     - xform/(.)ou$/$1Z/
+    - xform/^([jqx])ia$/$1a/
     - xform/[iu]a$/X/
+    - xform/^([jqx])iao$/$1C/
     - xform/iao$/N/
     - xform/(.)ao$/$1C/
     - xform/ui$/W/
