@@ -107,7 +107,7 @@ translator:
     - xform/([jqx])e/$1ie/
     - xform/([bpmfdtnljqx])n/$1iao/
     - xform/([jqxy])g/$1ing/
-    - xform/(\w)g/$1eng/
+    - xform/^\wg/$1eng/
     - xform/(\w)q/$1iu/
     - xform/([wbpmfnl])w/$1ei/
     - xform/(\w)w/$1ui/
